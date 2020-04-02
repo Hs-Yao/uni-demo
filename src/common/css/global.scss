@@ -1,0 +1,16 @@
+$blue : #0091ff;
+
+.test {
+    color: $blue;
+    font-size: 48rpx;
+    .aa {
+        color: red;
+    }
+}
+.cc {
+    color: green;
+}
+
+.bb {
+    @extend .cc
+}

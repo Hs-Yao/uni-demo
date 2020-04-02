@@ -4,8 +4,16 @@
 		<view>
 			<text class="title" @click="toGoods">{{title}}111111</text>
 		</view>
+		<div class="test"> 
+			<span>你好111</span>
+			<span class="aa">haha</span>
+		</div>
+		<div class="bb">oo</div>
+		<div class="cc">aaaaaa</div>
+		<button>按钮111</button>
 	</view>
 </template>
+
 
 <script>
 	export default {
@@ -25,7 +33,7 @@
 	}
 </script>
 
-<style>
+<style scoped lang="scss">
 	.content {
 		text-align: center;
 		height: 400upx;
@@ -36,9 +44,11 @@
 		width: 200upx;
 		margin-top: 200upx;
 	}
-
-	.title {
-		font-size: 36upx;
-		color: #8f8f94;
+	button{
+		line-height: 1;
+		margin:0;
+		button::after{
+			border:none;
+		}
 	}
 </style>
