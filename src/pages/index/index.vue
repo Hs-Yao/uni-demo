@@ -6,12 +6,17 @@
 		</view>
 		<div class="test"> 
 			<span>你好111</span>
-			<span class="aa">haha</span>
+			<span class="aa">haha222</span>
 		</div>
 		<div class="bb">oo</div>
 		<div class="cc">aaaaaa</div>
 		<button @click="add">按钮111</button>
 		<global></global>
+		<div>
+			<i class="iconfont icontouxiang- touXiang"></i>
+			<div>123</div>
+			<van-button type="default">默认按钮</van-button>
+		</div>
 	</view>
 </template>
 
@@ -48,5 +53,8 @@
 		height: 200upx;
 		width: 200upx;
 		margin-top: 200upx;
+	}
+	.touXiang {
+		font-size: 21px;
 	}
 </style>
