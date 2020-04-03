@@ -10,7 +10,7 @@
 		</div>
 		<div class="bb">oo</div>
 		<div class="cc">aaaaaa</div>
-		<button>按钮111</button>
+		<button @click="add">按钮111</button>
 	</view>
 </template>
 
@@ -23,11 +23,15 @@
 			}
 		},
 		onLoad() {
-
+			console.log(this.$store.state.num);
 		},
 		methods: {
 			toGoods() {
-				uni.navigateTo({url: '/pages/index/goods'});
+				uni.navigateTo({url: '/pages/goods/goods'});
+			},
+			add() {
+				this.$store.dispatch('addNumSync',3);
+				console.log(this.$store.state.num);
 			}
 		}
 	}
@@ -43,12 +47,5 @@
 		height: 200upx;
 		width: 200upx;
 		margin-top: 200upx;
-	}
-	button{
-		line-height: 1;
-		margin:0;
-		button::after{
-			border:none;
-		}
 	}
 </style>
