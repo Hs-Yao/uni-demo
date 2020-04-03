@@ -18,7 +18,7 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-
+```
 20200403测试
 
 如何在uni-app使用iconfont
@@ -32,3 +32,4 @@ https://www.jianshu.com/p/7fc08b1b4d85
 
 引入vant组件
 下载vant组件包，放到项目的wxcomponents中（必须这个目录），然后在pages.json中相应页面创建usingComponents。
+```
