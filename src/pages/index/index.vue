@@ -11,6 +11,7 @@
 		<div class="bb">oo</div>
 		<div class="cc">aaaaaa</div>
 		<button @click="add">按钮111</button>
+		<global></global>
 	</view>
 </template>
 
